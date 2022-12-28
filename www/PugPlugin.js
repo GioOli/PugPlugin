@@ -12,7 +12,7 @@ PugPlugin.install = function() {
   if (!window.plugins) {
     window.plugins = {};
   }
-  window.plugins.toastyPlugin = new PugPlugin();
-  return window.plugins.toastyPlugin;
+  window.plugins.PugPlugin = new PugPlugin();
+  return window.plugins.PugPlugin;
 };
 cordova.addConstructor(PugPlugin.install);
