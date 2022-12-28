@@ -16,7 +16,7 @@ public class PugPlugin extends CordovaPlugin{
       String endstr = message + ": Yo malabarismatic";
       // Send a positive result to the callbackContext
       PluginResult pluginResult = new PluginResult(PluginResult.Status.OK);
-      callbackContext.sendPluginResult(endstr);
+      callbackContext.sendPluginResult(pluginResult);
       return true;
   }
 }
