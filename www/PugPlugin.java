@@ -14,6 +14,10 @@ public class PugPlugin extends CordovaPlugin{
   public String execute(String action, String message,
     final CallbackContext callbackContext) {
       String endstr = message + ": Yo malabarismatic";
+      Toast toast = Toast.makeText(cordova.getActivity(), message,
+        Toast.LENGTH_LONG);
+      // Display toast
+      toast.show();
       // Send a positive result to the callbackContext
       PluginResult pluginResult = new PluginResult(PluginResult.Status.OK);
       callbackContext.sendPluginResult(pluginResult);
