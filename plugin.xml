@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="cordova-plugin-toastyplugin" version="0.0.1">
+        id="cordova-plugin-PugPlugin" version="0.0.1">
     <name>PugPlugin</name>
 
     <description>A Pug for testing.</description>
