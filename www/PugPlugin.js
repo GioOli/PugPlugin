@@ -8,11 +8,11 @@ PugPlugin.prototype.malabarismo = function(message, successCallback, errorCallba
 }
 
 // Installation constructor that binds ToastyPlugin to window
-ToastyPlugin.install = function() {
+PugPlugin.install = function() {
   if (!window.plugins) {
     window.plugins = {};
   }
-  window.plugins.toastyPlugin = new ToastyPlugin();
+  window.plugins.toastyPlugin = new PugPlugin();
   return window.plugins.toastyPlugin;
 };
-cordova.addConstructor(ToastyPlugin.install);
+cordova.addConstructor(PugPlugin.install);
